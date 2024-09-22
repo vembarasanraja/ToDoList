@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="todo-list">
+        <h1>To-Do List</h1> 
+
+        <div class="completion-meter">
+            <h2>Completion Percentage</h2>
+            <div class="meter">
+                <div class="marks">
+                    <div class="mark task-mark-25"></div>
+                    <div class="mark task-mark-50"></div>
+                    <div class="mark task-mark-75"></div>
+                </div>
+            </div>
+            <span id="percentage">0%</span>
+        </div>
+
+        <div class="todo-input">
+            <input type="text" id="newTask" placeholder="Add a new task">
+            <input type="date" id="taskDate">
+            <button onclick="addTask()">Add</button>
+        </div>
+        
+        <div class="todo-items">
+
+        </div>
+    </div>
+    <div id="credit-line" class="footer">
+        <p class="footer-credit">©️2023 all rights reserved. Made by <a href="https://www.linkedin.com/in/iamrahulmeena/" target="_blank" rel="noopener noreferrer">Rahul Meena</a></p>
+    </div>
+    
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
